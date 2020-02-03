@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-SelfHostedWebApi-1A9C42AA-8B52-4157-AE1B-8401A7CF7599</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+</Project>

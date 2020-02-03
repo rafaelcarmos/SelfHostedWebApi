@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "SelfHostedWebApi": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
